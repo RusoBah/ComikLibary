@@ -1,0 +1,39 @@
+
+.comics__container{
+   padding: 0;
+   margin: 0;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   flex-direction: row;
+   list-style: none;
+   align-items: center;
+}
+.comics__banner{
+   width: 250px;
+   height: 450px;
+   transition: ease 0.5s all;
+   cursor: pointer;
+   margin: 20px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   background-color: #e1cece;
+ 
+   border-radius: 5px;
+}
+.comics__banner:hover{
+   transform: calc(0.95);
+   filter: saturate(150%);
+   box-shadow: 0px 14px 28px rgba(196, 193, 193, 0.644), 0px 10px 16px rgba(190, 172, 172, 0.507);
+}
+.comics__title{
+   margin: auto;
+   
+   padding: 10px 15px;
+}
+.comics__img{
+   width: 100%;
+   object-fit: contain;
+   height: 300px;
+}
